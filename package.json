@@ -1,0 +1,31 @@
+{
+  "name": "graphql-mongoid",
+  "version": "1.0.1",
+  "description": "Crea el mongo id en un scalar type",
+  "main": "index.js",
+  "scripts": {
+    "publicar": "tsc -d && npm publish"
+  },
+  "dependencies": {
+    "assert-err": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoMajluf/GraphQLMongoId.git"
+  },
+  "author": "Diego Majluf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DiegoMajluf/GraphQLMongoId/issues"
+  },
+  "homepage": "https://github.com/DiegoMajluf/GraphQLMongoId#readme",
+  "devDependencies": {
+    "@types/graphql": "^14.2.0",
+    "@types/mongodb": "^3.1.26",
+    "typescript": "^3.4.5"
+  },
+  "peerDependencies": {
+    "graphql": ">=0.5.0",
+    "mongo": ">=0.1.0"
+  }
+}

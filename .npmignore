@@ -1,0 +1,5 @@
+index.ts
+index.map
+tsconfig.json
+package-lock.json
+.gitignore
